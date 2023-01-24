@@ -1,0 +1,47 @@
+# Introduction
+
+This notebook contains notes on using python for data science and research.
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+v0 = 5
+g = 9.81
+t = np.linspace(0, 1, 1001)
+
+y = v0*t - 0.5*g*t**2
+
+plt.plot(t, y)
+plt.xlabel('t (s)')
+plt.ylabel('y (s)')
+plt.show()
+```
+
+
+::: {.border}
+This content can be styled with a border
+:::
+
+
+
+:::{.callout-note}
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+:::{.callout-warning}
+Please be careful here!
+:::
+
+:::{.callout-tip}
+This is a good idea
+:::
+
+:::{.callout-caution}
+Be careful
+:::
+
+:::{.callout-important}
+You should pay attention to this
+:::
