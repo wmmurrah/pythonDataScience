@@ -1,6 +1,6 @@
 project:
   type: book
-  
+  output-dir: docs
 book:
   title: "Python for Data Science"
   author: "William M. M urrah"
